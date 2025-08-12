@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)  # Allows cross-origin requests (important for MIT App Inventor)
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("heatwave_model_.pkl")
 
 @app.route('/')
 def home():
